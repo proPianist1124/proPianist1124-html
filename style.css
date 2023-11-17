@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+:root{
+    --background:#000;
+	--background-lighter:#303030;
+	--color:#fff;
+	--font:"Roboto Mono", monospace;
+}
+
+body{
+	margin:25px 25px;
+	font-size:16px;
+	background-color:var(--background);
+	color:var(--color);
+	font-family:var(--font);
+}
+
+a{
+	text-decoration:none;
+}
+
+button{
+	width:150px;
+	padding:8px 16px;
+	color:var(--color);
+	background-color: var(--background);
+	border-radius:0px;
+	border:1px solid var(--background-lighter);
+	font-family:var(--font);
+	text-align:center;
+	transition:0.3s;
+}
+button:hover{
+	cursor:pointer;
+	background-color:var(--background-lighter);
+}
+button.discord{
+	background-color:#5539cc;
+	border:none;
+}
+button.discord:hover{
+	background-color:#4628cc;
+}
+button.twitter{
+	background-color:#15202b;
+	border:none;
+}
+button.twitter:hover{
+	background-color:#1c2732;
+}
+button.github{
+	background-color:#161b22;
+}
+button.github:hover{
+	background-color:#21262d;
+}
+
+div.card{
+	max-width:450px;
+	padding:10px 20px;
+	border:2px solid var(--background-lighter);
+}
