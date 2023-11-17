@@ -3,7 +3,8 @@
 :root{
     --background:#000;
 	--background-lighter:#303030;
-	--color:#fff;
+	--color:#FAFAFA;
+    --color-darker:#D4D4D8;
 	--font:"Roboto Mono", monospace;
 }
 
@@ -17,6 +18,15 @@ body{
 
 a{
 	text-decoration:none;
+    color:currentColor;
+}
+
+p a{
+    text-decoration:underline;
+    color:var(--color-darker);
+}
+p a:hover{
+    text-decoration:none;
 }
 
 button{
@@ -27,7 +37,7 @@ button{
 	border-radius:0px;
 	border:1px solid var(--background-lighter);
 	font-family:var(--font);
-	text-align:center;
+	text-align:left;
 	transition:0.3s;
 }
 button:hover{
@@ -50,13 +60,30 @@ button.twitter:hover{
 }
 button.github{
 	background-color:#161b22;
+    border:none;
 }
 button.github:hover{
 	background-color:#21262d;
 }
 
-div.card{
+button.spotify{
+    background-color:#1db954;
+    border:none;
+}
+button.spotify:hover{
+    background-color:#5eaf7a;
+    border:none;
+}
+
+div.card, div.card-hoverable{
 	max-width:450px;
 	padding:10px 20px;
 	border:2px solid var(--background-lighter);
+}
+div.card-hoverable{
+    transition:0.3s;
+}
+div.card-hoverable:hover{
+    cursor:pointer;
+    background-color:var(--background-lighter);
 }

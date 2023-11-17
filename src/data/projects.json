@@ -1,0 +1,20 @@
+{
+    "projects":[
+        {
+            "name":"Personal Site",
+            "url":"https://github.com/propianist1124/propianist1124"
+        },
+        {
+            "name":"Social Networking",
+            "url":"https://yofro.vercel.app"
+        },
+        {
+            "name":"Replit Frontend",
+            "url":"https://github.com/propianist1124/replweb"
+        },
+        {
+            "name":"Discord Bot",
+            "url":"https://cookie.propianist1124.repl.co/"
+        }
+    ]
+}
