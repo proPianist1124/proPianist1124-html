@@ -76,9 +76,11 @@ button.spotify:hover{
 }
 
 div.card, div.card-hoverable{
+	margin:auto;
 	max-width:450px;
 	padding:10px 20px;
 	border:2px solid var(--background-lighter);
+	margin-bottom:10px;
 }
 div.card-hoverable{
     transition:0.3s;

@@ -5,7 +5,7 @@ async function main(){
 
     for(let i=0; i<projects_data.projects.length; i++){
         const projects = document.getElementById("projects")
-        projects.innerHTML = `${projects.innerHTML}<a href = "${projects_data.projects[i].url}" target = "_blank"><div class = "card-hoverable">${projects_data.projects[i].name}</div></a><br>`
+        projects.innerHTML = `${projects.innerHTML}<a href = "${projects_data.projects[i].url}" target = "_blank"><div class = "card-hoverable">${projects_data.projects[i].name}</div></a>`
     }
 
     const socials_response = await fetch("src/data/socials.json")

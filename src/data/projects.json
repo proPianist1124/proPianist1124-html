@@ -5,6 +5,10 @@
             "url":"https://github.com/propianist1124/propianist1124"
         },
         {
+            "name":"My Startup",
+            "url":"https://answerkit.obl.ong"
+        },
+        {
             "name":"Social Networking",
             "url":"https://yofro.vercel.app"
         },
@@ -14,7 +18,7 @@
         },
         {
             "name":"Discord Bot",
-            "url":"https://cookie.propianist1124.repl.co/"
+            "url":"https://discord.com/api/oauth2/authorize?client_id=999030252384813077&permissions=8&scope=bot"
         }
     ]
 }
