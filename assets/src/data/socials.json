@@ -1,28 +1,24 @@
 {
     "socials":[
         {
-            "name":"Discord",
             "class":"discord",
             "url":"https://discord.gg/2YmK66G",
             "icon":"fa-brands fa-discord"
         },
         {
-            "name":"Twitter",
             "class":"twitter",
             "url":"https://twitter.com/proPianist1124",
             "icon":"fa-brands fa-twitter"
         },
         {
-            "name":"GitHub",
-            "class":"github",
-            "url":"https://github.com/proPianist1124",
-            "icon":"fa-brands fa-github"
-        },
-        {
-            "name":"Spotify",
             "class":"spotify",
             "url":"https://open.spotify.com/user/31vq6ry37tfa2qntvk6yjcf32cry",
             "icon":"fa-brands fa-spotify"
+        },
+        {
+            "class":"github",
+            "url":"https://github.com/proPianist1124",
+            "icon":"fa-brands fa-github"
         }
     ]
 }

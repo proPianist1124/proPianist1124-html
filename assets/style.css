@@ -4,7 +4,7 @@
     --background:#000;
 	--background-lighter:#303030;
 	--color:#FAFAFA;
-    --color-darker:#D4D4D8;
+    --color-darker:#bababd;
 	--font:"Roboto Mono", monospace;
 }
 
@@ -30,13 +30,15 @@ p a:hover{
 }
 
 button{
-	width:150px;
+	width:100%;
 	padding:8px 16px;
 	color:var(--color);
 	background-color: var(--background);
-	border-radius:0px;
-	border:1px solid var(--background-lighter);
+	border:none;
 	font-family:var(--font);
+	display:flex;
+	align-items:center;
+	justify-content:center;
 	text-align:left;
 	transition:0.3s;
 }
@@ -46,41 +48,37 @@ button:hover{
 }
 button.discord{
 	background-color:#5539cc;
-	border:none;
 }
 button.discord:hover{
 	background-color:#4628cc;
 }
 button.twitter{
-	background-color:#15202b;
-	border:none;
+	background-color:#1DA1F2;
 }
 button.twitter:hover{
-	background-color:#1c2732;
+	background-color:#019af9;
 }
 button.github{
 	background-color:#161b22;
-    border:none;
 }
 button.github:hover{
 	background-color:#21262d;
 }
-
 button.spotify{
     background-color:#1db954;
-    border:none;
 }
 button.spotify:hover{
     background-color:#5eaf7a;
-    border:none;
 }
 
 div.card, div.card-hoverable{
 	margin:auto;
 	max-width:450px;
 	padding:10px 20px;
-	border:2px solid var(--background-lighter);
-	margin-bottom:10px;
+	margin-right:20px;
+}
+div.card{
+	border:1px solid var(--background-lighter);
 }
 div.card-hoverable{
     transition:0.3s;
@@ -88,4 +86,12 @@ div.card-hoverable{
 div.card-hoverable:hover{
     cursor:pointer;
     background-color:var(--background-lighter);
+}
+
+div.container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:850px;
+	margin:auto;
 }
