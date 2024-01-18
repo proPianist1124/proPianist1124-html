@@ -1,23 +1,27 @@
 {
     "projects":[
         {
-            "name":"Personal Site",
+            "name":"Personal",
             "url":"https://github.com/propianist1124/propianist1124"
         },
         {
-            "name":"My Startup",
+            "name":"Startup",
             "url":"https://answerkit.obl.ong"
         },
         {
-            "name":"Social Networking",
+            "name":"Framework",
+            "url":"https://cheeksjs.pages.dev/"
+        },
+        {
+            "name":"Social",
             "url":"https://yofro.vercel.app"
         },
         {
-            "name":"Replit Frontend",
+            "name":"Replit",
             "url":"https://github.com/propianist1124/replweb"
         },
         {
-            "name":"Discord Bot",
+            "name":"DS Bot",
             "url":"https://discord.com/api/oauth2/authorize?client_id=999030252384813077&permissions=8&scope=bot"
         }
     ]
