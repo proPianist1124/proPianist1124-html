@@ -13,6 +13,6 @@ async function main(){
 
     for(let i=0; i<socials_data.socials.length; i++){
         const socials = document.getElementById("socials")
-        socials.innerHTML = `${socials.innerHTML}<a href = "${socials_data.socials[i].url}"><button class = "${socials_data.socials[i].class}"><i class = "${socials_data.socials[i].icon}"></i></button></a><br>`
+        socials.innerHTML = `${socials.innerHTML}<a href = "${socials_data.socials[i].url}"><button class = "${socials_data.socials[i].class}">${socials_data.socials[i].icon}</button></a><br>`
     }
 }
