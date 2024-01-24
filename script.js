@@ -1,4 +1,4 @@
-import { router } from "https://cheeksjs.pages.dev/src/dom.js"
+import { router } from "http://127.0.0.1:5500/src/dom.js"
 
 function index(){
     return [
@@ -46,9 +46,6 @@ function index(){
     ]
 }
 
-router([
-    {
-        route:"",
-        page:index,
-    }
-])
+router({
+    "/": index,
+})
