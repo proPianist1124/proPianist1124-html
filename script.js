@@ -1,4 +1,4 @@
-import { router } from "http://127.0.0.1:5500/src/dom.js"
+import { router } from "https://hydrojs.pages.dev/src/dom.js"
 
 function index(){
     return [
