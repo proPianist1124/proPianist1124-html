@@ -3,9 +3,14 @@
 :root{
     --background:#000;
 	--background-lighter:#303030;
+    --background-lightest:#3a3a3a;
 	--color:#FAFAFA;
     --color-darker:#bababd;
 	--font:"Roboto Mono", monospace;
+}
+
+::-webkit-scrollbar {
+    display:none;
 }
 
 body{
@@ -31,10 +36,11 @@ p a:hover{
 
 button{
 	width:100%;
-	padding:8px 16px;
+	padding:16px 16px;
 	color:var(--color);
-	background-color: var(--background);
-	border:none;
+	background-color:var(--background-lighter);
+	border:1px solid var(--background-lightest);
+    border-radius:50px;
 	font-family:var(--font);
 	display:flex;
 	align-items:center;
@@ -44,38 +50,41 @@ button{
 }
 button:hover{
 	cursor:pointer;
-	background-color:var(--background-lighter);
+	background-color:var(--background-lightest);
 }
 button.discord{
 	background-color:#5539cc;
+    border-color:#4628cc;
 }
 button.discord:hover{
 	background-color:#4628cc;
 }
 button.twitter{
-	background-color:#1DA1F2;
+	background-color:#27a3f1;
+    border-color:#019af9
 }
 button.twitter:hover{
 	background-color:#019af9;
 }
 button.github{
 	background-color:#161b22;
+    border-color:#21262d
 }
 button.github:hover{
 	background-color:#21262d;
 }
 button.spotify{
     background-color:#1db954;
+    border-color:#5eaf7a;
 }
 button.spotify:hover{
     background-color:#5eaf7a;
 }
 
-div.card, div.card-hoverable{
+div.card, div.card-hoverable, div.container{
 	margin:auto;
-	max-width:450px;
+	max-width:500px;
 	padding:10px 20px;
-	margin-right:20px;
 }
 div.card{
 	border:1px solid var(--background-lighter);
@@ -86,12 +95,4 @@ div.card-hoverable{
 div.card-hoverable:hover{
     cursor:pointer;
     background-color:var(--background-lighter);
-}
-
-div.container{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	width:850px;
-	margin:auto;
 }
