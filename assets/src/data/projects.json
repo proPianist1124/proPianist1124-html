@@ -1,27 +1,31 @@
 {
     "projects":[
         {
-            "name":"Personal",
+            "name":"Personal Site",
             "url":"https://github.com/propianist1124/propianist1124"
         },
         {
-            "name":"Startup",
+            "name":"Current Project",
+            "url":"https://azulcms.vercel.app"
+        },
+        {
+            "name":"Previous Startup",
             "url":"https://answerkit.obl.ong"
         },
         {
-            "name":"Framework",
-            "url":"https://cheeksjs.pages.dev/"
+            "name":"JS Frontend Framework",
+            "url":"https://hydrojs.pages.dev/"
         },
         {
-            "name":"Social",
+            "name":"Social Network",
             "url":"https://yofro.vercel.app"
         },
         {
-            "name":"Replit",
+            "name":"Replit Frontend",
             "url":"https://github.com/propianist1124/replweb"
         },
         {
-            "name":"DS Bot",
+            "name":"Discord Bot",
             "url":"https://discord.com/api/oauth2/authorize?client_id=999030252384813077&permissions=8&scope=bot"
         }
     ]
